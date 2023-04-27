@@ -16,7 +16,8 @@
 .mainContent {
   background-image: url(img/header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  height: 100vh;
+  border-bottom-left-radius: 100px;
+  padding: 50px 0 100px;
 }
 
 .Content {
