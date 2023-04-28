@@ -17,7 +17,7 @@
   background-image: url(img/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   border-bottom-left-radius: 100px;
-  padding: 50px 0 100px;
+  height: 100vh;
 }
 
 .Content {
@@ -102,24 +102,24 @@ h3 span {
 
 h5 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 52px;
   letter-spacing: 0;
   color: #172b4d;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 30px auto;
+  gap: 0;
 }
 
-/* .canopy-card {
+.canopy-card {
   background: #f7f7f9;
   padding: 20px 0;
   display: grid;
   grid-auto-rows: auto;
-  grid-gap:1rem;
-} */
+  grid-gap: 2rem;
+}
 
 .snapshoot-portfolio {
   width: 100%;
@@ -154,7 +154,7 @@ h5 {
   margin: 15px auto;
 }
 
-.canopy-third-card-section{
+.canopy-third-card-section {
   background: #fff;
   height: 519px;
   width: 327px;
@@ -167,7 +167,7 @@ h5 {
   margin: 15px auto;
 }
 
-.canopy-fourth-card-section{
+.canopy-fourth-card-section {
   background: #fff;
   height: 519px;
   width: 327px;
@@ -251,24 +251,7 @@ h5 {
   flex-grow: 0;
 }
 
-/* .social_media h4 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #7f8cff;
-  margin-left: 21px;
-} */
-
-/* .social_media ul {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-left: 30px;
-  margin-right: -20px;
-} */
-
-.languages-skills  img {
+.languages-skills img {
   height: 72px;
   width: 327px;
   left: 0;
@@ -279,15 +262,7 @@ h5 {
 .my-skill {
   display: flex;
   flex-direction: column;
-
 }
-
-/* .about-myself {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-} */
 
 .aboutMyself {
   display: flex;
@@ -305,13 +280,8 @@ h5 {
 
 .social_media {
   display: flex;
-
 }
 
-.get{
-  display: flex;
-  align-items: center;
-}
 .getBtn {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -322,7 +292,10 @@ h5 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  padding: 8px 12px;
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: 1px solid #6070ff;
+  background: white;
 }
 
 .languages {
@@ -330,4 +303,10 @@ h5 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.skills {
+  background-color: #fff;
+  border-top-right-radius: 100px;
+  padding: 50px 0 100px;
 }
