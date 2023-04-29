@@ -130,7 +130,7 @@ h5 {
   display: flex;
   background: #fff;
   height: 529px;
-  width: 327px;
+  width: 300px;
   left: 24px;
   top: 754px;
   border-radius: 16px;
@@ -144,7 +144,7 @@ h5 {
 .canopy-second-card-section {
   background: #fff;
   height: 563px;
-  width: 327px;
+  width: 300px;
   left: 24px;
   top: 754px;
   border-radius: 16px;
@@ -157,7 +157,7 @@ h5 {
 .canopy-third-card-section {
   background: #fff;
   height: 519px;
-  width: 327px;
+  width: 300px;
   left: 24px;
   top: 754px;
   border-radius: 16px;
@@ -283,19 +283,24 @@ h5 {
 }
 
 .getBtn {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
+  font-size: 15px;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03;
   color: #396df2;
-  padding: 10px 22px;
-  border-radius: 10px;
-  border: 1px solid #6070ff;
-  background: white;
+  border: 1px solid #396df2;
+  padding: 10px 21px;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  flex-wrap: wrap;
+  transition-duration: 0.5s;
+}
+
+.getBtn:hover {
+  background-color: #8080ff;
+  color: #ebebff;
 }
 
 .languages {
