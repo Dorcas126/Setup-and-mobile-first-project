@@ -86,7 +86,7 @@ and styled it , by giving it a color.
 ## 💻 Getting Started 
 
 To get a local copy up and running, follow these steps.
-just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/mobile-first)
+just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/mobile-version)
 
 ### Prerequisites
 
@@ -169,5 +169,5 @@ Thank you
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/mobile-first/LICENSE) 
+_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/mobile-version/LICENSE) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
