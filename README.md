@@ -2,10 +2,10 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://dl.dropboxusercontent.com/s/36qn9s23n9mgsth/dorcaslogo.png" alt="logo" width=""  height="auto" />
   <br/>
 
-  <h3><b>My README Template</b></h3>
+  <h3><b></b></h3>
 
 </div>
 
@@ -44,8 +44,6 @@ and styled it , by giving it a color.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>HTML</summary>
   <ul>
@@ -64,18 +62,14 @@ and styled it , by giving it a color.
 
 ### Key Features 
 
-> Describe between 1-3 key features of the application.
-
 - **[Add HTML]**
 - **[Add css]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO SECTION-->
 
 ## 🚀 Live Demo 
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://dorcas126.github.io/Setup-and-mobile-first-project/)
 
@@ -131,6 +125,12 @@ Linters
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
 - LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
 
+👤 **Eloghene Otiede**
+
+- GitHub: [@geekelo](https://github.com/geekelo)
+- Twitter: [@Geekelo_xyz](https://twitter.com/Geekelo_xyz)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/eloghene-otiede)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -169,5 +169,5 @@ Thank you
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/mobile-version/LICENSE) 
+_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/contact-form/LICENSE) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
