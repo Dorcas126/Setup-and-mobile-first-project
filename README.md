@@ -67,7 +67,7 @@ and styled it , by giving it a color.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO SECTION-->
 
 ## 🚀 Live Demo 
 
