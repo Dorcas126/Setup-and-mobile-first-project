@@ -1,4 +1,13 @@
+<a name="readme-top"></a>
 
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="https://dl.dropboxusercontent.com/s/36qn9s23n9mgsth/dorcaslogo.png" alt="logo" width=""  height="auto" />
+  <br/>
+
+  <h3><b></b></h3>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -61,8 +70,6 @@ and styled it , by giving it a color.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo 
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://dorcas126.github.io/Setup-and-mobile-first-project/)
 
