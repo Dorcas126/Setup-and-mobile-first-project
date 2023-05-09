@@ -231,6 +231,23 @@ h5 {
   transition-duration: 0.6s;
 }
 
+.but button {
+  font-size: 17px;
+  font-weight: 500, bold;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #396df2;
+  margin-left: 24px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
 .project-card button:hover {
   color: white;
   background-color: #6070ff;
@@ -340,7 +357,7 @@ h6 {
   justify-content: space-between;
   align-items: center;
   width: 312px;
-  margin: 17px ;
+  margin: 17px;
   padding-left: 10px;
 }
 
@@ -370,6 +387,7 @@ h6 {
   text-align: center;
   margin-top: 50px;
 }
+
 form {
   margin: 0;
   padding: 0;
@@ -401,25 +419,7 @@ textarea {
   height: 150px;
 }
 
-.but button {
-  font-size: 17px;
-  font-weight: 500, bold;
-  line-height: 24px;
-  letter-spacing: 0;
-  font-family: 'Poppins', sans-serif;
-  color: #396df2;
-  margin-left: 24px;
-  cursor: pointer;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-  display: flex;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-
-}
-
-.but button:hover{
+.but button:hover {
   color: #fff;
   background: #6070ff;
 }
