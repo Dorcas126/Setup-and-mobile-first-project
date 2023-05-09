@@ -2,10 +2,10 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://dl.dropboxusercontent.com/s/36qn9s23n9mgsth/dorcaslogo.png" alt="logo" width=""  height="auto" />
   <br/>
 
-  <h3><b>My README Template</b></h3>
+  <h3><b></b></h3>
 
 </div>
 
@@ -44,8 +44,6 @@ and styled it , by giving it a color.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>HTML</summary>
   <ul>
@@ -64,8 +62,6 @@ and styled it , by giving it a color.
 
 ### Key Features 
 
-> Describe between 1-3 key features of the application.
-
 - **[Add HTML]**
 - **[Add css]**
 
@@ -75,7 +71,7 @@ and styled it , by giving it a color.
 
 ## 🚀 Live Demo 
 
-> Add a link to your deployed project.
+> Here is a link to the deployed project.
 
 - [Live Demo Link](https://dorcas126.github.io/Setup-and-mobile-first-project/)
 
