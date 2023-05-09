@@ -330,16 +330,6 @@ h6 {
   padding-left: 20px;
 }
 
-.contact {
-  height: 765px;
-  width: 375px;
-  background: url(img/contact\ form\ shapes-mobile@2x.png);
-  background-repeat: no-repeat;
-  border-top-left-radius: 80px;
-  background-color: #6070ff;
-  margin-top: 100px;
-}
-
 .contact p {
   font-size: 19px;
   font-weight: 400, bold;
@@ -350,10 +340,36 @@ h6 {
   justify-content: space-between;
   align-items: center;
   width: 312px;
-  margin: 17px auto;
+  margin: 17px ;
   padding-left: 10px;
 }
 
+.contact {
+  width: 100%;
+  height: 779px;
+  background-image: url(img/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: calc(100%);
+  background-color: #6070ff;
+  border-radius: 120px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.contact .contact-container {
+  width: 80%;
+  height: fit-content;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
 form {
   margin: 0;
   padding: 0;
@@ -385,8 +401,8 @@ textarea {
   height: 150px;
 }
 
-.but {
-  font-size: 15px;
+.but button {
+  font-size: 17px;
   font-weight: 500, bold;
   line-height: 24px;
   letter-spacing: 0;
@@ -396,12 +412,14 @@ textarea {
   cursor: pointer;
   flex-wrap: wrap;
   margin-bottom: 30px;
-  padding-bottom: 30px;
+  padding: 10px 15px;
   display: flex;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 
 }
 
-.but:hover{
+.but button:hover{
   color: #fff;
   background: #6070ff;
 }
