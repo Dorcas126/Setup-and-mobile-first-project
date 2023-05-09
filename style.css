@@ -315,3 +315,93 @@ h5 {
   border-top-right-radius: 100px;
   padding: 50px 0 100px;
 }
+
+h6 {
+  font-size: 35px;
+  font-weight: 500, bold;
+  line-height: 52px;
+  letter-spacing: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 100px 50px auto;
+  padding-left: 20px;
+}
+
+.contact {
+  height: 765px;
+  width: 375px;
+  background: url(img/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  border-top-left-radius: 80px;
+  background-color: #6070ff;
+  margin-top: 100px;
+}
+
+.contact p {
+  font-size: 19px;
+  font-weight: 400, bold;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: #ebebff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 312px;
+  margin: 17px auto;
+  padding-left: 10px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  width: 275px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #172b4d;
+  margin: 16px 24px auto;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+  flex: 1.5;
+}
+
+input {
+  height: 18px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.but {
+  font-size: 15px;
+  font-weight: 500, bold;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #396df2;
+  margin-left: 24px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  display: flex;
+
+}
+
+.but:hover{
+  color: #fff;
+  background: #6070ff;
+}
