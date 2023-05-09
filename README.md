@@ -169,5 +169,5 @@ Thank you
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/mobile-version/LICENSE) 
+_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/contact-form/LICENSE) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
