@@ -1,13 +1,3 @@
-<a name="readme-top"></a>
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>My README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -44,8 +34,6 @@ and styled it , by giving it a color.
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>HTML</summary>
   <ul>
@@ -64,8 +52,6 @@ and styled it , by giving it a color.
 
 ### Key Features 
 
-> Describe between 1-3 key features of the application.
-
 - **[Add HTML]**
 - **[Add css]**
 
@@ -74,8 +60,6 @@ and styled it , by giving it a color.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo 
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://dorcas126.github.io/Setup-and-mobile-first-project/)
 
