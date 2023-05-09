@@ -1,4 +1,5 @@
 
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -61,6 +62,8 @@ and styled it , by giving it a color.
 
 ## 🚀 Live Demo 
 
+> Add a link to your deployed project.
+
 - [Live Demo Link](https://dorcas126.github.io/Setup-and-mobile-first-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -114,6 +117,12 @@ Linters
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
 - LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
+
+👤 **Eloghene Otiede**
+
+- GitHub: [@geekelo](https://github.com/geekelo)
+- Twitter: [@Geekelo_xyz](https://twitter.com/Geekelo_xyz)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/eloghene-otiede)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
