@@ -80,7 +80,7 @@ and styled it , by giving it a color.
 ## 💻 Getting Started 
 
 To get a local copy up and running, follow these steps.
-just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/mobile-version)
+just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/desktop-version)
 
 ### Prerequisites
 
@@ -125,15 +125,6 @@ Linters
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
 - LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
 
-👤 **Eloghene Otiede**
-
-- GitHub: [@geekelo](https://github.com/geekelo)
-- Twitter: [@Geekelo_xyz](https://twitter.com/Geekelo_xyz)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/eloghene-otiede)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing 
@@ -169,5 +160,5 @@ Thank you
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/contact-form/LICENSE) 
+_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/desktop-version/LICENSE) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
