@@ -478,7 +478,7 @@ textarea {
   /* /////////////SUBCONTENT///////////// */
   .content {
     width: 100%;
-    background-image: url(img/header_background_shapes.png);
+    background: url(img/header_background_shapes.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: white;
@@ -849,13 +849,13 @@ textarea {
     flex: 1;
     padding-right: 50px;
   }
-
-  .tool {
+/* 
+  /* .tool {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-  }
+  } */ */
 
   .tool button {
     font-family: 'Poppins', sans-serif;
@@ -883,13 +883,13 @@ textarea {
     align-items: flex-start !important;
   }
 
-  .tool .languages li a img {
+   .tool .languages li a img {
     flex: 1;
   }
 
   .tool .languages li a span {
     flex: 1;
-  }
+  } 
 
   /* /////////////////CONTACT ME///////////////// */
   .contact-container {
