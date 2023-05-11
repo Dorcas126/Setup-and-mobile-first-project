@@ -135,6 +135,15 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- Future Features -->
+
+### Future Features 
+
+- **[Add functionality using JS]**
+- **[Add Boostrap to my html file]**
+
+
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support
@@ -160,5 +169,3 @@ Thank you
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/Dorcas126/Setup-and-mobile-first-project/blob/desktop-version/LICENSE) 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
