@@ -849,15 +849,6 @@ textarea {
     padding-right: 50px;
   }
 
-  .about-me  p {
-    flex: 1;
-    padding-right: 50px;
-    align-items: center;
-    justify-content: center;
-    
-  }
-
-
   .tool button {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
