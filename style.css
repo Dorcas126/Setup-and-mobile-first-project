@@ -10,7 +10,8 @@ body {
   font-weight: 400;
   background-color: #e5e5e5;
   color: #172b4d;
-  margin: 0 20px;
+
+  /* margin: 0 20px; */
   padding: 0;
 }
 
@@ -32,10 +33,18 @@ p {
   font-size: 14px;
 }
 
-.container {
+.main_container {
   width: 100%;
-  margin: 0 auto;
-  background-color: #e5e5e5;
+
+  /* margin: 0 auto; */
+
+  /* background-color: rgb(0, 34, 128); */
+}
+
+.page_details {
+  background-color: white;
+  width: 80%;
+  margin: auto;
 }
 
 .content-container {
@@ -66,6 +75,10 @@ header {
 .subcontent a {
   color: #6070ff;
   text-decoration: none;
+}
+
+.about-container a {
+  color: #6070ff;
 }
 
 header .logo a {
@@ -130,12 +143,8 @@ header .logo a {
 
 .subcontent {
   width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px 20px;
-  position: relative;
-  left: 0%;
+  margin: auto;
+  padding: 15% 0;
 }
 
 .subcontent .social-media {
@@ -145,6 +154,12 @@ header .logo a {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+.about-container ul li {
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .subcontent .social-media li {
@@ -254,11 +269,11 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #fff;
   border-radius: 0 120px 0 0;
 }
 
- .about-container {
+.about-container {
   width: 85%;
   height: fit-content;
   background-color: white;
@@ -269,16 +284,12 @@ button {
   border-radius: 0 25px 0 0;
 }
 
- .about-container ul {
+.about-container ul {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-}
-
- .about-container a {
-  color: #6070ff;
 }
 
 .btn-resume {
@@ -287,14 +298,14 @@ button {
   font-size: 14px;
 }
 
- .about-container .btn-resume:hover {
+.about-container .btn-resume:hover {
   border: 1px solid white;
   background-color: #396df2;
   color: white;
   cursor: pointer;
 }
 
- .about-container .tool button {
+.about-container .tool button {
   width: 100%;
   background-color: white;
   border-bottom: 1px solid lightgrey;
@@ -305,11 +316,11 @@ button {
   justify-content: space-between;
 }
 
- .about-container .tool .language-button {
+.about-container .tool .language-button {
   border: 0;
 }
 
- .tool ul.languages {
+.tool ul.languages {
   margin: 0;
   padding: 0;
   display: flex;
@@ -317,13 +328,7 @@ button {
   justify-content: flex-start;
 }
 
- .about-container ul li {
-  list-style: none;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
- .tool ul.languages li {
+.tool ul.languages li {
   flex: 1;
   display: flex;
   justify-content: flex-start;
@@ -331,7 +336,7 @@ button {
   border-radius: 5px;
 }
 
- .tool ul.languages li a {
+.tool ul.languages li a {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -342,12 +347,12 @@ button {
   padding: 10px 20px;
 }
 
- .tool ul.languages li span {
+.tool ul.languages li span {
   flex: 1;
   margin-left: 10px;
 }
 
- .tool ul.languages li a i {
+.tool ul.languages li a i {
   margin-right: 10px;
   font-size: 19px;
 }
@@ -487,17 +492,17 @@ textarea {
   }
 
   .subcontent {
-    width: 65%;
+    /* width: 65%;
     position: relative;
     top: 10%;
-    left: 10%;
+    left: 10%; */
   }
 
   /* /////////////SUBCONTENT///////////// */
 
   .mycanopy-section {
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 1fr 1fr;
     gap: 4%;
   }
 
@@ -524,7 +529,7 @@ textarea {
   .about .about-container {
     width: 85%;
     height: fit-content;
-    background-color: white;
+    background-color: #fff;
     display: grid;
     grid-template-columns: 60% 40%;
     margin-top: 50px;
@@ -572,8 +577,6 @@ textarea {
 
   .contact .contact-container p {
     width: 50%;
-    padding: 10px;
-    margin: 10px;
   }
 
   .contact-container .btn {
@@ -603,17 +606,17 @@ textarea {
 
   /* /////////////SUBCONTENT///////////// */
   .subcontent {
-    width: 65%;
+    /* width: 65%;
     position: relative;
     top: 10%;
-    left: 10%;
+    left: 10%; */
   }
 
   /* /////////////SUBCONTENT///////////// */
 
   .mycanopy-section {
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 1fr 1fr;
     gap: 4%;
   }
 
@@ -667,7 +670,6 @@ textarea {
 }
 
 @media all and (min-width: 1200px) {
- 
   .container {
     width: 1200px;
     margin: 0 auto;
@@ -730,11 +732,11 @@ textarea {
   }
 
   .subcontent {
-    width: 920px;
+    /* width: 920px;
     height: 122px;
     position: relative;
     top: 35%;
-    left: 20%;
+    left: 20%; */
   }
 
   .subcontent h1 {
@@ -777,16 +779,11 @@ textarea {
 
   .mycanopy-section {
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 1fr 1fr;
     gap: 4%;
   }
 
   .mycanopy-section .snapshoot-portofolio {
-    width: 544px;
-    height: 448px;
-  }
-
-  .mycanopy-section .project-card {
     width: 544px;
     height: 448px;
   }
@@ -809,13 +806,16 @@ textarea {
     line-height: 24px;
   }
 
+  .about-me p {
+    width: 500px;
+  }
+
   .mycanopy-section .project-card p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    padding-right: 60px;
   }
 
   .tool .languages li {
@@ -850,11 +850,6 @@ textarea {
   .about-me {
     flex: 1;
     padding-right: 50px;
-  }
-
-  .about-me p {
-    width: 500px;
-
   }
 
   .tool button {
