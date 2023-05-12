@@ -258,7 +258,7 @@ button {
   border-radius: 0 120px 0 0;
 }
 
-.about .about-container {
+ .about-container {
   width: 85%;
   height: fit-content;
   background-color: white;
@@ -269,7 +269,7 @@ button {
   border-radius: 0 25px 0 0;
 }
 
-.about .about-container ul {
+ .about-container ul {
   margin: 0;
   padding: 0;
   display: flex;
@@ -277,7 +277,7 @@ button {
   justify-content: flex-start;
 }
 
-.about .about-container a {
+ .about-container a {
   color: #6070ff;
 }
 
@@ -287,14 +287,14 @@ button {
   font-size: 14px;
 }
 
-.about .about-container .btn-resume:hover {
+ .about-container .btn-resume:hover {
   border: 1px solid white;
   background-color: #396df2;
   color: white;
   cursor: pointer;
 }
 
-.about .about-container .tool button {
+ .about-container .tool button {
   width: 100%;
   background-color: white;
   border-bottom: 1px solid lightgrey;
@@ -305,11 +305,11 @@ button {
   justify-content: space-between;
 }
 
-.about .about-container .tool .language-button {
+ .about-container .tool .language-button {
   border: 0;
 }
 
-.about .tool ul.languages {
+ .tool ul.languages {
   margin: 0;
   padding: 0;
   display: flex;
@@ -317,13 +317,13 @@ button {
   justify-content: flex-start;
 }
 
-.about .about-container ul li {
+ .about-container ul li {
   list-style: none;
   margin-right: 10px;
   margin-top: 10px;
 }
 
-.about .tool ul.languages li {
+ .tool ul.languages li {
   flex: 1;
   display: flex;
   justify-content: flex-start;
@@ -331,7 +331,7 @@ button {
   border-radius: 5px;
 }
 
-.about .tool ul.languages li a {
+ .tool ul.languages li a {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -342,12 +342,12 @@ button {
   padding: 10px 20px;
 }
 
-.about .tool ul.languages li span {
+ .tool ul.languages li span {
   flex: 1;
   margin-left: 10px;
 }
 
-.about .tool ul.languages li a i {
+ .tool ul.languages li a i {
   margin-right: 10px;
   font-size: 19px;
 }
@@ -667,6 +667,7 @@ textarea {
 }
 
 @media all and (min-width: 1200px) {
+ 
   .container {
     width: 1200px;
     margin: 0 auto;
@@ -740,8 +741,9 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 28px;
+    line-height: 45px;
+    margin-bottom: 0;
   }
 
   p {
@@ -758,6 +760,7 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    margin-top: 2px;
   }
 
   /* /////////////SUBCONTENT///////////// */
@@ -849,6 +852,11 @@ textarea {
     padding-right: 50px;
   }
 
+  .about-me p {
+    width: 500px;
+
+  }
+
   .tool button {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -873,6 +881,7 @@ textarea {
     flex-direction: column !important;
     justify-content: flex-start;
     align-items: flex-start !important;
+    gap: 10px;
   }
 
   .tool .languages li a img {
