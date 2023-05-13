@@ -64,6 +64,8 @@ and styled it , by giving it a color.
 
 - **[Add HTML]**
 - **[Add css]**
+- **[Add Animations and Transitions]**
+- **[Add Desktop and Mobile screen responsiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
