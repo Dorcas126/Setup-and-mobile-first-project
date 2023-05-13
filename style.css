@@ -208,6 +208,10 @@ h3 span {
   transition: transform 0.3s ease-in-out;
 }
 
+.my-skills img {
+  margin-left: 34px;
+}
+
 .snapshoot-portofolio img:hover {
   transform: scale(1.1);
 }
@@ -372,10 +376,6 @@ button {
 .tool ul.languages li a i {
   margin-right: 10px;
   font-size: 19px;
-}
-
-.my-skills img {
-  margin-left: 34px;
 }
 
 .get {
