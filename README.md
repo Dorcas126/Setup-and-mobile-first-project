@@ -119,7 +119,7 @@ Linters
 
 ## 👥 Authors 
 
-👤 **Author1**
+👤 **Uwimbabazi Dorcas**
 
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
