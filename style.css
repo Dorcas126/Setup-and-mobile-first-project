@@ -70,6 +70,18 @@ header {
   margin-left: 25px;
   text-decoration: none;
   font-weight: bold;
+  animation-name: logo-animation;
+  animation-duration: 1s;
+}
+
+@keyframes logo-animation {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
 }
 
 .subcontent a {
@@ -193,6 +205,15 @@ h3 span {
 .snapshoot-portofolio img {
   width: 100%;
   height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.my-skills img {
+  margin-left: 34px;
+}
+
+.snapshoot-portofolio img:hover {
+  transform: scale(1.1);
 }
 
 .canopy-card-section {
@@ -253,11 +274,11 @@ button {
   background: #fff;
   cursor: pointer;
   flex-wrap: wrap;
-  transition-duration: 0.6s;
+  transition-duration: 1s;
 }
 
 .project-card button:hover {
-  color: white;
+  color: rgb(139, 67, 67);
   background-color: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
@@ -357,10 +378,6 @@ button {
   font-size: 19px;
 }
 
-.my-skills img {
-  margin-left: 34px;
-}
-
 .get {
   font-size: 15px;
   font-weight: 500;
@@ -409,6 +426,14 @@ footer {
   align-items: center;
   text-align: center;
   margin-top: 50px;
+}
+
+.contact p {
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact p:hover {
+  transform: translateX(50px);
 }
 
 form {
