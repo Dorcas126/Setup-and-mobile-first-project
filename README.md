@@ -78,6 +78,7 @@ and styled it , by giving it a color.
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://dorcas126.github.io/Setup-and-mobile-first-project/)
+- [Loom video] (https://www.loom.com/share/5cd2ed7189764f50ba9905a6304cb180)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
