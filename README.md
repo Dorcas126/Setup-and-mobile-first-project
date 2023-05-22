@@ -64,6 +64,8 @@ and styled it , by giving it a color.
 
 - **[Add HTML]**
 - **[Add css]**
+- **[Add Animations and Transitions]**
+- **[Add Desktop and Mobile screen responsiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +121,7 @@ Linters
 
 ## 👥 Authors 
 
-👤 **Author1**
+👤 **Uwimbabazi Dorcas**
 
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
