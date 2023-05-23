@@ -545,10 +545,7 @@ textarea {
   .Union i.fa-list-squares {
     display: none;
   }
-
-  .ul-list {
-    display: none;
-  }
+ 
 
   /* /////////////SUBCONTENT///////////// */
 
@@ -664,14 +661,6 @@ textarea {
 
   .Union i.fa-list-squares {
     display: none;
-  }
-
-  /* /////////////SUBCONTENT///////////// */
-  .subcontent {
-    /* width: 65%;
-    position: relative;
-    top: 10%;
-    left: 10%; */
   }
 
   /* /////////////SUBCONTENT///////////// */
