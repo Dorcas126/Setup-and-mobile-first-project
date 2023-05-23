@@ -16,19 +16,22 @@
   <section class="main_container">
       <div class="content-container">
         <header>
-          <div class="logo">
-            <a href="#">Dorcas</a>
-          </div>
-          <nav class="Union">
-            <ul>
-              <li><a href="#portofolio">Portfolio</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-            <i class="fa fa-list-squares"></i>
-          </nav>
+            <nav>
+                <a href="index.html" id="logo">Dorcas</a>
+                <div class="icons">
+                    <img src="img/menu.svg" class="display-img" alt="">
+                    <img src="img/Icon.png" class="no-display-img" alt="">
+                </div>
+                <div class="ul-list">
+                    <ul>
+                        <li><a href="#portfolio" class="ul-link">Portfolio</a></li>
+                        <li><a href="#about" class="ul-link">About</a></li>
+                        <li><a href="#contact" class="ul-link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
-        <main class="content">
+        <main id="portfolio" class="content">
           <section class="subcontent">
             <h1>
               I'm Dorcas<br>Glad to see you!
@@ -162,7 +165,7 @@
       </section>
     </div>
 
-    <section class="about">
+    <section id="about" class="about">
       <div class="about-container">
         <div class="about-me">
           <h2>
@@ -225,7 +228,7 @@
     </section>
 
     <footer>
-      <section class="contact">
+      <section id="contact" class="contact">
         <div class="contact-container">
 
           <h2>Contact me</h2>
@@ -247,6 +250,6 @@
       </section>
     </footer>
   </section>
+<script src="script.js"></script>
 </body>
-
 </html>
