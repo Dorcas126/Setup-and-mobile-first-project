@@ -574,7 +574,6 @@ textarea {
   .Union i.fa-list-squares {
     display: none;
   }
- 
 
   /* /////////////SUBCONTENT///////////// */
 
@@ -587,8 +586,6 @@ textarea {
     border-radius: 0 0 0 120px;
     height: 550px;
   }
-
-  /* /////////////SUBCONTENT///////////// */
 
   .mycanopy-section {
     display: grid;
