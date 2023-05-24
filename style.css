@@ -10,8 +10,6 @@ body {
   font-weight: 400;
   background-color: #e5e5e5;
   color: #172b4d;
-
-  /* margin: 0 20px; */
   padding: 0;
 }
 
@@ -35,10 +33,6 @@ p {
 
 .main_container {
   width: 100%;
-
-  /* margin: 0 auto; */
-
-  /* background-color: rgb(0, 34, 128); */
 }
 
 .page_details {
@@ -49,7 +43,6 @@ p {
 
 .content-container {
   width: 100%;
-  height: fit-content;
   background-color: white;
   border-radius: 0 0 0 50px;
 }
@@ -57,21 +50,222 @@ p {
 header {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
   background: white;
 }
 
-.logo {
-  flex: 3;
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 1.6rem;
+}
+
+.icons {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 20;
   color: #6070ff;
+}
+
+.display-img {
+  display: block;
+  margin-top: -16px;
+  margin-left: 40px;
+  width: 55px;
+}
+
+.no-display-img {
+  display: none;
+  width: 20px;
+  margin: 1.3rem;
+  margin-top: 1px;
+}
+
+.open-menu .display-img {
+  display: none;
+}
+
+.open-menu .no-display-img {
+  display: block;
+  color: #fff;
+}
+
+.ul-list {
+  position: fixed;
+  left: -35px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(55, 72, 228);
+  width: 100%;
+  padding: 2rem;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 90%;
+  height: 302.5rem;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transform: translate(-100%);
+  transition: transform 1s;
+  list-style-type: none;
+  font-weight: 600;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+
+ul li {
+  margin-right: 8px;
+}
+
+.ul-list li {
+  padding-top: 1rem;
+  list-style: none;
   text-align: left;
   margin-left: 25px;
   text-decoration: none;
   font-weight: bold;
   animation-name: logo-animation;
   animation-duration: 1s;
+}
+
+.popup {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: scroll;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: inherit;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.popup-title {
+  display: flex;
+  width: inherit;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.popup-title h2 {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.popup-title i {
+  font-size: 25px;
+  margin-right: 1rem;
+}
+
+.subtitle-container ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.subtitle-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.subtitle-container h2 {
+  font-size: 13px;
+  color: #344563;
+}
+
+.popupImage {
+  height: auto;
+  width: 100%;
+}
+
+.paragraphPopup {
+  font-size: 15px;
+}
+
+.languageLinks {
+  display: none;
+}
+
+.languageText {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.language-container {
+  width: 100%;
+}
+
+.languageText li {
+  padding: 7px;
+  color: #6070ff;
+  background-color: #ebebff;
+  border-radius: 10px;
+}
+
+.button_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3px;
+}
+
+.button_container a {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px;
+  border-radius: 10px;
+  color: #6070ff;
+  border: 1px solid rgb(57, 109, 242);
+}
+
+.snapshoot-portofolio img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.my-skills img {
+  margin-left: 34px;
+}
+
+.btn-live.link > img {
+  margin-left: 10px;
+}
+
+.btn-code.link > img {
+  margin-left: 10px;
 }
 
 @keyframes logo-animation {
@@ -93,31 +287,23 @@ header {
   color: #6070ff;
 }
 
-header .logo a {
-  color: #6070ff;
-  transition-property: transform;
-  transition-duration: 1000ms;
-  transition-delay: 100ms;
-  font-weight: bold;
+.ul-list li a {
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
 }
 
-.Union {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: #6070ff;
+.open-menu .ul-list {
+  transform: translateX(0);
+  z-index: 5;
 }
 
-.Union ul {
-  flex: 1;
-  flex-direction: row;
-  justify-content: space-around;
+#logo {
+  font-size: 25px;
   color: #6070ff;
-  margin: 0;
-  padding: 0;
-  display: none;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .project-card li {
@@ -125,7 +311,6 @@ header .logo a {
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
-  letter-spacing: 0.03;
   color: #6070ff;
   background: #ebebff;
   margin-right: 5px;
@@ -202,16 +387,6 @@ h3 span {
   flex: 1;
 }
 
-.snapshoot-portofolio img {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.3s ease-in-out;
-}
-
-.my-skills img {
-  margin-left: 34px;
-}
-
 .snapshoot-portofolio img:hover {
   transform: scale(1.1);
 }
@@ -265,7 +440,6 @@ button {
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.03;
   color: #396df2;
   border: 1px solid #396df2;
   padding: 7px 16px;
@@ -285,7 +459,6 @@ button {
 
 .about {
   width: 100%;
-  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -296,7 +469,6 @@ button {
 
 .about-container {
   width: 85%;
-  height: fit-content;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -381,7 +553,6 @@ button {
 .get {
   font-size: 15px;
   font-weight: 500;
-  letter-spacing: 0.03;
   color: #396df2;
   border: 1px solid #396df2;
   padding: 10px 21px;
@@ -418,7 +589,6 @@ footer {
 
 .contact .contact-container {
   width: 80%;
-  height: fit-content;
   color: white;
   display: flex;
   flex-direction: column;
@@ -465,7 +635,6 @@ textarea {
 
 .btn {
   font-size: 15px;
-  font-weight: 500, bold;
   line-height: 24px;
   letter-spacing: 0;
   font-family: 'Poppins', sans-serif;
@@ -483,14 +652,55 @@ textarea {
 }
 
 @media all and (min-width: 768px) {
-  .Union ul {
-    flex: 1;
-    display: flex;
-    justify-content: space-around;
+  body {
+    overflow: hidden;
+    overflow-y: visible;
   }
 
-  .logo {
-    flex: 2;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  nav {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .display-img,
+  .no-display-img,
+  .open-menu .display-img,
+  .open-menu .no-display-img {
+    display: none;
+  }
+
+  #logo {
+    margin-left: 80px;
+  }
+
+  .button_container a {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 10px;
+    color: #6070ff;
+    border: 1px solid rgb(57, 109, 242);
   }
 
   .Union li a {
@@ -506,6 +716,7 @@ textarea {
   }
 
   /* /////////////SUBCONTENT///////////// */
+
   .content {
     width: 100%;
     background: url(img/header_background_shapes.png);
@@ -514,13 +725,6 @@ textarea {
     background-color: white;
     border-radius: 0 0 0 120px;
     height: 550px;
-  }
-
-  .subcontent {
-    /* width: 65%;
-    position: relative;
-    top: 10%;
-    left: 10%; */
   }
 
   /* /////////////SUBCONTENT///////////// */
@@ -553,7 +757,6 @@ textarea {
 
   .about .about-container {
     width: 85%;
-    height: fit-content;
     background-color: #fff;
     display: grid;
     grid-template-columns: 60% 40%;
@@ -566,6 +769,14 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+  }
+
+  .languageText li {
+    padding: 7px;
+    color: #6070ff;
+    background-color: #ebebff;
+    border-radius: 10px;
+    text-align: right;
   }
 
   .about .about-container .tool .languages li {
@@ -587,7 +798,6 @@ textarea {
 
   .contact {
     width: 100%;
-    height: fit-content;
     background-image: url(img/footer_background_shapes.png);
     background-repeat: no-repeat;
     background-size: calc(100% - 30px);
@@ -612,6 +822,61 @@ textarea {
   .contact-container .btn button {
     margin: 10px 0;
   }
+
+  .popup {
+    padding: 4rem 11rem;
+  }
+
+  .popupDescription {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .popup-title i {
+    font-size: 25px;
+    margin-right: 1rem;
+  }
+
+  .paragraphPopup {
+    font-size: 15px;
+    text-align: left;
+    width: 60%;
+  }
+
+  .languageLinks {
+    display: flex;
+  }
+
+  .languageText {
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .language-container {
+    width: 40%;
+  }
+
+  .button_container {
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+    padding: 3px;
+  }
+
+  .btn-live.link > img {
+    margin-left: 10px;
+  }
+
+  .btn-code.link > img {
+    margin-left: 10px;
+  }
 }
 
 @media all and (min-width: 1024px) {
@@ -627,14 +892,6 @@ textarea {
 
   .Union i.fa-list-squares {
     display: none;
-  }
-
-  /* /////////////SUBCONTENT///////////// */
-  .subcontent {
-    /* width: 65%;
-    position: relative;
-    top: 10%;
-    left: 10%; */
   }
 
   /* /////////////SUBCONTENT///////////// */
@@ -756,14 +1013,6 @@ textarea {
     border-radius: 0 0 0 120px;
   }
 
-  .subcontent {
-    /* width: 920px;
-    height: 122px;
-    position: relative;
-    top: 35%;
-    left: 20%; */
-  }
-
   .subcontent h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -795,7 +1044,6 @@ textarea {
     flex: 1;
     display: flex;
     background: #fff;
-    height: fit-content;
     border-radius: 16px;
     padding: 25px 25px;
     flex-direction: column;
