@@ -88,7 +88,7 @@ and styled it , by giving it a color.
 ## 💻 Getting Started 
 
 To get a local copy up and running, follow these steps.
-just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/mobile-menu)
+just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/desktop-version)
 
 ### Prerequisites
 
