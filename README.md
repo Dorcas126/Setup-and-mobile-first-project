@@ -71,7 +71,6 @@ and styled it , by giving it a color.
 
 - **[Add HTML]**
 - **[Add css]**
-- **[Add Animations and Transitions]**
 - **[Add Desktop and Mobile screen responsiveness]**
 - **[Add POPUP window on Desktop and Mobile screen responsiveness]**
 
@@ -90,7 +89,7 @@ and styled it , by giving it a color.
 ## 💻 Getting Started 
 
 To get a local copy up and running, follow these steps.
-just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/popup-window)
+just visit my repo folder (https://github.com/Dorcas126/Setup-and-mobile-first-project/tree/desktop-version)
 
 ### Prerequisites
 
@@ -130,10 +129,14 @@ Linters
 ## 👥 Authors 
 
 👤 **Uwimbabazi Dorcas**
+👤 **Afimia Fidelis I**
 
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
 - LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
+- GitHub: [@Izebiafe](https://github.com/Izebiafe)
+- Twitter: [@Afimia_fidelis](https://twitter.com/Afimia_fidelis)
+- LinkedIn: [Afimia Fidelis](https://www.linkedin.com/in)
 
 <!-- CONTRIBUTING -->
 
