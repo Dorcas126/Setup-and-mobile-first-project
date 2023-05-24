@@ -72,7 +72,6 @@ and styled it , by giving it a color.
 - **[Add HTML]**
 - **[Add css]**
 - **[Add Desktop and Mobile screen responsiveness]**
-- **[Add POPUP window on Desktop and Mobile screen responsiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
