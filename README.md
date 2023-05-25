@@ -122,11 +122,14 @@ Linters
 ## 👥 Authors 
 
 👤 **Uwimbabazi Dorcas**
+👤 **Afimia Fidelis I**
 
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
 - LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
-
+- GitHub: [@Dorcas126](https://github.com/Izebiafe)
+- Twitter: [@Izebiafe](https://twitter.com/Afimia_fidelis)
+- LinkedIn: [Afimia Fidelis]
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing 
