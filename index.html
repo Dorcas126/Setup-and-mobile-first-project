@@ -79,7 +79,13 @@
 
     <section class="canopy-card" id="portfolio"></section>
 
+    <section id= "about"class="about">
+
+
+    <section class="canopy-card" id="portfolio"></section>
+
     <section id="about" class="about">
+
       <div class="about-container">
         <div class="about-me">
           <h2>
@@ -143,26 +149,34 @@
 
     <footer>
       <section id="contact" class="contact">
+
+          <div class="contact-container">
+
         <div class="contact-container">
 
-          <h2>Contact me</h2>
-          <p>
-            If you have an application you are interested in developing, a feature
-            that you need built or a project that needs coding. I’d love to help
-            with it.
-          </p>
-          <form action="https://formspree.io/f/mrgjrqoe" method="POST">
-            <input type="test" name="name" placeholder="Full name" maxlength="30" required />
-            <input type="email" name="email address" placeholder="Email address" required />
-            <textarea name="contact" cols="30" rows="10" maxlength="500" placeholder="write you message here"
-              required></textarea>
-            <div class="btn">
-              <button type="submit">Get in touch</button>
-            </div>
-          </form>
-        </div>
+
+              <h2>Contact me</h2>
+              <p>
+                  If you have an application you are interested in 
+                  developing, a feature that you need built or a project 
+                  that needs coding. I’d love to help with it 
+              </p>
+              <form id="formMain" action="https://formspree.io/f/mrgjrqoe" method="POST">
+                  <input type="test" name="name" placeholder="Full name" maxlength="30" required />
+                  <label for="full name">Full name</label><br>
+                  <input id="email" type="email" name="email address" placeholder="Email address" required />
+                  <label for="email address">Email address</label><br>
+                  <span id="span"></span>
+                  <textarea name="contact" cols="30" rows="10" maxlength="500"
+                      placeholder="write you message here" required></textarea>
+                      <label for="contact">write your message here </label><br>
+                  <div class="btn">
+                      <button type="submit" class="touch" >Get in touch</button>
+                  </div>
+              </form>
+          </div>
       </section>
-    </footer>
+  </footer>
   </section>
 <script src="script.js"></script>
 </body>
