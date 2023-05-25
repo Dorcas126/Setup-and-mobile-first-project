@@ -219,7 +219,6 @@ popupsBtn.forEach((btn) => {
       }, 1);
     }
   });
-
 });
 
 const form = document.getElementById('formMain');
@@ -234,6 +233,4 @@ form.addEventListener('submit', (even) => {
   } else {
     form.submit();
   }
-
-
 });
