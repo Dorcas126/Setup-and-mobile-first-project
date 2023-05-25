@@ -122,12 +122,15 @@ Linters
 ## 👥 Authors 
 
 👤 **Uwimbabazi Dorcas**
+👤 **Afimia Fidelis I**
 
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@Dorcasuw](https://twitter.com/Dorcasuwi)
 - LinkedIn: [Uwimbabazi Dorcas](https://www.linkedin.com/in/uwimbabazi-dorcas-956a5a226/)
-
-<!-- CONTRIBUTING -->
+- GitHub: [@Izebiafe](https://github.com/Izebiafe)
+- Twitter: [@Izebiafe](https://twitter.com/Afimia_fidelis)
+- LinkedIn: [Afimia Fidelis]
+<!-- CONTRIBU[label](vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)TING -->
 
 ## 🤝 Contributing 
 
