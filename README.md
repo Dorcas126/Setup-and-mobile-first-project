@@ -58,13 +58,19 @@ and styled it , by giving it a color.
   </ul>
 </details>
 
+<details>
+  <summary>JS</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features 
 
 - **[Add HTML]**
 - **[Add css]**
-- **[Add Animations and Transitions]**
 - **[Add Desktop and Mobile screen responsiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -131,6 +137,17 @@ Linters
 - Twitter: [@Izebiafe](https://twitter.com/Afimia_fidelis)
 - LinkedIn: [Afimia Fidelis]
 <!-- CONTRIBU[label](vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html)TING -->
+
+- GitHub: [@Dorcas126](https://github.com/Izebiafe)
+- Twitter: [@Izebiafe](https://twitter.com/Afimia_fidelis)
+- LinkedIn: [Afimia Fidelis]
+
+- GitHub: [@Izebiafe](https://github.com/Izebiafe)
+- Twitter: [@Afimia_fidelis](https://twitter.com/Afimia_fidelis)
+- LinkedIn: [Afimia Fidelis](https://www.linkedin.com/in)
+
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing 
 
