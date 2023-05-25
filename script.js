@@ -148,6 +148,10 @@ seeproject.forEach((item) => {
                 <li>${sampleStep[0].languages[1]}</li>
                 <li>${sampleStep[0].languages[2]}t</li>
             </ul>
+
+
+            <div id="divider-1"></div>
+
             <div class="button_container">
                 <a class="btn-live link" target="_blank" href="#">See live <img src="img/Icon 1.png"  alt="popup"/></a>
                 <a class="btn-code link" target="_blank" href="#">See source <img src="img/Vector.png"  alt="github"/></a>
@@ -215,6 +219,7 @@ popupsBtn.forEach((btn) => {
       }, 1);
     }
   });
+
 });
 
 const form = document.getElementById('formMain');
@@ -229,4 +234,6 @@ form.addEventListener('submit', (even) => {
   } else {
     form.submit();
   }
+
+
 });

@@ -227,6 +227,12 @@ ul li {
   border-radius: 10px;
 }
 
+#divider-1 {
+  border: 1px #ebecf0 solid;
+  margin-bottom: 25px;
+}
+
+
 .button_container {
   display: flex;
   width: 100%;
