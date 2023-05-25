@@ -224,12 +224,12 @@ const userInput = JSON.parse(localStorage.getItem('userInput')) || {
   FullName: '',
   mail: '',
   textArea: '',
-}
+};
 function saveInputsToLocalStorage(inputsElements, key) {
   inputsElements.addEventListener('input', () => {
-  userInput[key] = inputsElements.value.trim();
-  localStorage.setItem('userInput', JSON.stringify(userInput))  
-  })
+    userInput[key] = inputsElements.value.trim();
+    localStorage.setItem('userInput', JSON.stringify(userInput));
+  });
 }
 
 const FullName = document.getElementById('fullName');
@@ -237,7 +237,7 @@ const form = document.getElementById('formMain');
 const mail = document.getElementById('email');
 const textArea = document.getElementById('message');
 const message = document.getElementById('span');
-console.log(textArea)
+// console.log(textArea);
 
 form.addEventListener('submit', (even) => {
   const chackEmail = mail.value.toLowerCase();
@@ -248,12 +248,9 @@ form.addEventListener('submit', (even) => {
     form.submit();
   }
 });
-mail.value = userInput.mail
-FullName.value = userInput.FullName
-textArea.value = userInput.textArea
-saveInputsToLocalStorage(FullName, 'FullName')
-saveInputsToLocalStorage(mail, 'mail')
-saveInputsToLocalStorage(textArea, 'textArea')
-
-
-
+mail.value = userInput.mail;
+FullName.value = userInput.FullName;
+textArea.value = userInput.textArea;
+saveInputsToLocalStorage(FullName, 'FullName');
+saveInputsToLocalStorage(mail, 'mail');
+saveInputsToLocalStorage(textArea, 'textArea');
