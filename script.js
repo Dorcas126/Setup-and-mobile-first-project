@@ -16,7 +16,7 @@ menuLink.forEach((e) => e.addEventListener('click', () => {
 const works = [
   {
     id: 1,
-    title: 'Tonic',
+    title: 'To do List',
     image: 'img/todo.png',
     imgeAlt: 'To do list image',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
@@ -28,7 +28,7 @@ const works = [
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
+    title: 'Awesome Books',
     image: 'img/awesome.png',
     imageAlt: 'snapshoot Portfolio picture',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
@@ -40,7 +40,7 @@ const works = [
   },
   {
     id: 3,
-    title: 'Facebook 360',
+    title: 'Space travelers',
     image: 'img/traveller.png',
     imageAlt: 'snapshoot Portfolio picture',
     canopy: ['FACEBOOK', 'Full Stack Dev', '2015'],
@@ -52,7 +52,7 @@ const works = [
   },
   {
     id: 4,
-    title: 'Uber Navigation',
+    title: 'Movie App',
     image: 'img/movie.png',
     imageAlt: 'snapshoot Portfolio picture',
     canopy: ['Uber', 'Lead Developer', '2018'],
