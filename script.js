@@ -17,50 +17,50 @@ const works = [
   {
     id: 1,
     title: 'Tonic',
-    image: 'img/Snapshoot Portfolio.png',
-    imgeAlt: 'snapshoot Portfolio picture',
+    image: 'img/todo.png',
+    imgeAlt: 'To do list image',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
     descript:
     'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     languages: ['html', 'css', 'javascript'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    sourcebtn: '<a href="https://github.com/Dorcas126/To-Do-List">See source</a>',
+    liveBtn: '<a href="https://dorcas126.github.io/To-Do-List/dist/">See live</a>',
   },
   {
     id: 2,
     title: 'Multi-Post Stories',
-    image: 'img/Snapshoot Portfolio(1).png',
+    image: 'img/awesome.png',
     imageAlt: 'snapshoot Portfolio picture',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
-    'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     languages: ['html', 'css', 'Javascript'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    sourcebtn: '<a href="https://github.com/Dorcas126/Awesome-book-project">See source</a>',
+    liveBtn: '<a href="https://dorcas126.github.io/Awesome-book-project/">See live</a>',
   },
   {
     id: 3,
     title: 'Facebook 360',
-    image: 'img/Snapshoot Portfolio(2).png',
+    image: 'img/traveller.png',
     imageAlt: 'snapshoot Portfolio picture',
     canopy: ['FACEBOOK', 'Full Stack Dev', '2015'],
     descript:
     'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     languages: ['html', 'css', 'Javascript'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    sourcebtn: '<a href="https://github.com/Dorcas126/space-travelers">See source</a>',
+    liveBtn: '<a href="https://dorcaskikospacetravelers.netlify.app/">See live</a>',
   },
   {
     id: 4,
     title: 'Uber Navigation',
-    image: 'img/Snapshoot Portfolio(3).png ',
+    image: 'img/movie.png',
     imageAlt: 'snapshoot Portfolio picture',
     canopy: ['Uber', 'Lead Developer', '2018'],
     descript:
     'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     languages: ['html', 'css', 'Javascript'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    sourcebtn: '<a href="https://github.com/Dorcas126/JavaScript-capstone-project">See source</a>',
+    liveBtn: '<a href="https://dorcas126.github.io/JavaScript-capstone-project/dist/">See live</a>',
   },
 ];
 
@@ -84,7 +84,8 @@ for (let i = 0; i < works.length; i += 1) {
               <li class="css-tag">${work.languages[1]}css</li>
               <li class="js-tag">${work.languages[2]}</li>
           </ul>
-          <button type="button" id="see_project">See Project</button>
+          <button type="button" id="see_project">${work.liveBtn}</button>
+          <button type="button" id="see_project">${work.sourcebtn}</button>
       </div>
   </div>
 </div>
@@ -153,8 +154,8 @@ seeproject.forEach((item) => {
             <div id="divider-1"></div>
 
             <div class="button_container">
-                <a class="btn-live link" target="_blank" href="#">See live <img src="img/Icon 1.png"  alt="popup"/></a>
-                <a class="btn-code link" target="_blank" href="#">See source <img src="img/Vector.png"  alt="github"/></a>
+                <a class="btn-live link" target="_blank" href="">See live <img src="img/Icon 1.png"  alt="popup"/></a>
+                <a class="btn-code link" target="_blank" href="">See source <img src="img/Vector.png"  alt="github"/></a>
             </div>
         </div>
     </div>
